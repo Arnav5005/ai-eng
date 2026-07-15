@@ -1,3 +1,4 @@
+#  if not able to run code run using python hello-llm.py
 import os
 from pathlib import Path
 from dotenv import load_dotenv
