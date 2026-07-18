@@ -59,7 +59,7 @@ print(answer)
 # how to extract info from json
 import json
 raw_json=answer
-data_file=json.loads(raw_json)
+data_file=json.loads(raw_json) # type: ignore
 ticket=Ticket(**data_file)
 
 print(ticket.name)
