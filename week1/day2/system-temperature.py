@@ -13,8 +13,6 @@ if not my_api_key:
 client=Groq(api_key=my_api_key)
 
 model="llama-3.3-70b-versatile"
-role="user"
-prompt="suggest me a unique name for my clothing brand"
 
 # System
 message_system={
@@ -23,8 +21,8 @@ message_system={
 } 
 
 message={
-    "role":role,
-    "content":prompt
+    "role":"user",
+    "content":"suggest me a unique name for my clothing brand"
 }
 
 messages=[message_system,message]
