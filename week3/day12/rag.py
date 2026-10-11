@@ -24,7 +24,8 @@ groq_model="llama-3.3-70b-versatile"
 documents = [
 "Employees receive 24 days of paid leave per year.",
 
-"Employees work from the office on Tuesday, Wednesday and Thursday. "
+"Employees work from the office on Tuesday, Wednesday and Thursday. ",
+
 "Monday and Friday are optional work-from-home days.",
 
 "Employees receive Rs 3000 per month for gym reimbursement.",
